@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-login {
+    background-image: url('../img/background_11rm.jpg');
+    background-size: cover;
+    background-position: right;
+}
+
+@media (min-width: 1024px) {
+    .bg-login-desktop {
+        background-image: url('../img/background_11rm.jpg');
+        background-size: contain;
+        background-position: center;
+    }
+}
